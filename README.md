@@ -13,7 +13,7 @@
 - [Contributing](#contributing)
 - [Credits](#credits)
 
-[Click Here](https://github.com/IdefaSoft/Emora-Project/blob/main/SupportedWebsites.md) to access the list of the **130** currently supported sites or [here](https://discord.gg/gKT6GT2YCS) to join our Discord server!  
+[Click Here](https://github.com/IdefaSoft/Emora-Project/blob/main/SupportedWebsites.md) to access the list of the **121** currently supported sites or [here](https://discord.gg/gKT6GT2YCS) to join our Discord server!  
 
 ## Showcase
 ![Emora Showcase](https://raw.githubusercontent.com/IdefaSoft/Emora-Project/main/EmoraShowcase.gif)
@@ -23,11 +23,11 @@
 
 ### Using binary release
 
-If you don't want to or can't build the software yourself, you can download it [here](https://github.com/IdefaSoft/Emora-Project/releases/tag/v1.2.1)
+If you don't want to or can't build the software yourself, you can download it [here](https://github.com/IdefaSoft/Emora-Project/releases/tag/v1.3.0)
 
 ### Building from source
 
-In order to build the software, you need to install **Visual Studio 2022 or** higher (or maybe Rider). You can find Visual Studio at https://visualstudio.microsoft.com/.
+In order to build the software, you can install **Visual Studio 2022 or** higher (or maybe Rider). You can find Visual Studio at https://visualstudio.microsoft.com/.
 
 ## Troubleshooting
 

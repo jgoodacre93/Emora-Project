@@ -28,12 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmoraForm));
             this.btnSearch = new System.Windows.Forms.Button();
             this.txtUsername = new System.Windows.Forms.TextBox();
             this.pnlUsername = new System.Windows.Forms.Panel();
-            this.imgWebsiteIcons = new System.Windows.Forms.ImageList(this.components);
             this.lblStatus = new System.Windows.Forms.Label();
             this.lblThreads = new System.Windows.Forms.Label();
             this.nudThreads = new System.Windows.Forms.NumericUpDown();
@@ -83,143 +80,6 @@
             this.pnlUsername.Name = "pnlUsername";
             this.pnlUsername.Size = new System.Drawing.Size(518, 66);
             this.pnlUsername.TabIndex = 2;
-            // 
-            // imgWebsiteIcons
-            // 
-            this.imgWebsiteIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgWebsiteIcons.ImageStream")));
-            this.imgWebsiteIcons.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgWebsiteIcons.Images.SetKeyName(0, "Imgur");
-            this.imgWebsiteIcons.Images.SetKeyName(1, "About.me");
-            this.imgWebsiteIcons.Images.SetKeyName(2, "DailyMotion");
-            this.imgWebsiteIcons.Images.SetKeyName(3, "Chess");
-            this.imgWebsiteIcons.Images.SetKeyName(4, "Docker Hub");
-            this.imgWebsiteIcons.Images.SetKeyName(5, "Duolingo");
-            this.imgWebsiteIcons.Images.SetKeyName(6, "Fiverr");
-            this.imgWebsiteIcons.Images.SetKeyName(7, "Flickr");
-            this.imgWebsiteIcons.Images.SetKeyName(8, "Genius (Artists)");
-            this.imgWebsiteIcons.Images.SetKeyName(9, "Genius (Users)");
-            this.imgWebsiteIcons.Images.SetKeyName(10, "Giphy");
-            this.imgWebsiteIcons.Images.SetKeyName(11, "GitHub");
-            this.imgWebsiteIcons.Images.SetKeyName(12, "Minecraft");
-            this.imgWebsiteIcons.Images.SetKeyName(13, "npm");
-            this.imgWebsiteIcons.Images.SetKeyName(14, "Pastebin");
-            this.imgWebsiteIcons.Images.SetKeyName(15, "Patreon");
-            this.imgWebsiteIcons.Images.SetKeyName(16, "PyPi");
-            this.imgWebsiteIcons.Images.SetKeyName(17, "Reddit");
-            this.imgWebsiteIcons.Images.SetKeyName(18, "RootMe");
-            this.imgWebsiteIcons.Images.SetKeyName(19, "Scribd");
-            this.imgWebsiteIcons.Images.SetKeyName(20, "Snapchat");
-            this.imgWebsiteIcons.Images.SetKeyName(21, "SoundCloud");
-            this.imgWebsiteIcons.Images.SetKeyName(22, "Spotify");
-            this.imgWebsiteIcons.Images.SetKeyName(23, "Steam");
-            this.imgWebsiteIcons.Images.SetKeyName(24, "Tenor");
-            this.imgWebsiteIcons.Images.SetKeyName(25, "Vimeo");
-            this.imgWebsiteIcons.Images.SetKeyName(26, "Replit");
-            this.imgWebsiteIcons.Images.SetKeyName(27, "Roblox");
-            this.imgWebsiteIcons.Images.SetKeyName(28, "Telegram");
-            this.imgWebsiteIcons.Images.SetKeyName(29, "Wattpad");
-            this.imgWebsiteIcons.Images.SetKeyName(30, "GeeksforGeeks");
-            this.imgWebsiteIcons.Images.SetKeyName(31, "SourceForge");
-            this.imgWebsiteIcons.Images.SetKeyName(32, "TryHackMe");
-            this.imgWebsiteIcons.Images.SetKeyName(33, "Wikipedia");
-            this.imgWebsiteIcons.Images.SetKeyName(34, "Medium");
-            this.imgWebsiteIcons.Images.SetKeyName(35, "Instagram");
-            this.imgWebsiteIcons.Images.SetKeyName(36, "AllMyLinks");
-            this.imgWebsiteIcons.Images.SetKeyName(37, "Buy Me a Coffee");
-            this.imgWebsiteIcons.Images.SetKeyName(38, "BuzzFeed");
-            this.imgWebsiteIcons.Images.SetKeyName(39, "Cash App");
-            this.imgWebsiteIcons.Images.SetKeyName(40, "Ebay");
-            this.imgWebsiteIcons.Images.SetKeyName(41, "JsFiddle");
-            this.imgWebsiteIcons.Images.SetKeyName(42, "Linktree");
-            this.imgWebsiteIcons.Images.SetKeyName(43, "Pinterest");
-            this.imgWebsiteIcons.Images.SetKeyName(44, "Rapid API");
-            this.imgWebsiteIcons.Images.SetKeyName(45, "TradingView");
-            this.imgWebsiteIcons.Images.SetKeyName(46, "Facebook");
-            this.imgWebsiteIcons.Images.SetKeyName(47, "Goodreads");
-            this.imgWebsiteIcons.Images.SetKeyName(48, "Ko-fi");
-            this.imgWebsiteIcons.Images.SetKeyName(49, "Trello");
-            this.imgWebsiteIcons.Images.SetKeyName(50, "Bandcamp");
-            this.imgWebsiteIcons.Images.SetKeyName(51, "Bluesky");
-            this.imgWebsiteIcons.Images.SetKeyName(52, "Codeberg");
-            this.imgWebsiteIcons.Images.SetKeyName(53, "Codepen");
-            this.imgWebsiteIcons.Images.SetKeyName(54, "Discogs");
-            this.imgWebsiteIcons.Images.SetKeyName(55, "Freesound");
-            this.imgWebsiteIcons.Images.SetKeyName(56, "Gitee");
-            this.imgWebsiteIcons.Images.SetKeyName(57, "GitLab");
-            this.imgWebsiteIcons.Images.SetKeyName(58, "Hackaday");
-            this.imgWebsiteIcons.Images.SetKeyName(59, "HudsonRock");
-            this.imgWebsiteIcons.Images.SetKeyName(60, "JEUXVIDEO");
-            this.imgWebsiteIcons.Images.SetKeyName(61, "Kongregate");
-            this.imgWebsiteIcons.Images.SetKeyName(62, "Lichess");
-            this.imgWebsiteIcons.Images.SetKeyName(63, "MyAnimeList");
-            this.imgWebsiteIcons.Images.SetKeyName(64, "Scratch");
-            this.imgWebsiteIcons.Images.SetKeyName(65, "Threads");
-            this.imgWebsiteIcons.Images.SetKeyName(66, "VirusTotal");
-            this.imgWebsiteIcons.Images.SetKeyName(67, "Behance");
-            this.imgWebsiteIcons.Images.SetKeyName(68, "CodeChef");
-            this.imgWebsiteIcons.Images.SetKeyName(69, "DeviantArt");
-            this.imgWebsiteIcons.Images.SetKeyName(70, "Dribbble");
-            this.imgWebsiteIcons.Images.SetKeyName(71, "Etsy");
-            this.imgWebsiteIcons.Images.SetKeyName(72, "Hack The Box");
-            this.imgWebsiteIcons.Images.SetKeyName(73, "Hacker News");
-            this.imgWebsiteIcons.Images.SetKeyName(74, "Hugging Face");
-            this.imgWebsiteIcons.Images.SetKeyName(75, "itch.io");
-            this.imgWebsiteIcons.Images.SetKeyName(76, "Kickstarter");
-            this.imgWebsiteIcons.Images.SetKeyName(77, "Kik");
-            this.imgWebsiteIcons.Images.SetKeyName(78, "Last.fm");
-            this.imgWebsiteIcons.Images.SetKeyName(79, "LeetCode");
-            this.imgWebsiteIcons.Images.SetKeyName(80, "LinkedIn");
-            this.imgWebsiteIcons.Images.SetKeyName(81, "Myspace");
-            this.imgWebsiteIcons.Images.SetKeyName(82, "OpenStreetMap");
-            this.imgWebsiteIcons.Images.SetKeyName(83, "PayPal");
-            this.imgWebsiteIcons.Images.SetKeyName(84, "Periscope");
-            this.imgWebsiteIcons.Images.SetKeyName(85, "Product Hunt");
-            this.imgWebsiteIcons.Images.SetKeyName(86, "Speedrun");
-            this.imgWebsiteIcons.Images.SetKeyName(87, "Tellonym");
-            this.imgWebsiteIcons.Images.SetKeyName(88, "ThemeForest");
-            this.imgWebsiteIcons.Images.SetKeyName(89, "TikTok");
-            this.imgWebsiteIcons.Images.SetKeyName(90, "Tumblr");
-            this.imgWebsiteIcons.Images.SetKeyName(91, "Twitch");
-            this.imgWebsiteIcons.Images.SetKeyName(92, "Venmo");
-            this.imgWebsiteIcons.Images.SetKeyName(93, "VK");
-            this.imgWebsiteIcons.Images.SetKeyName(94, "X");
-            this.imgWebsiteIcons.Images.SetKeyName(95, "Gitea");
-            this.imgWebsiteIcons.Images.SetKeyName(96, "Tinder");
-            this.imgWebsiteIcons.Images.SetKeyName(97, "AlternativeTo");
-            this.imgWebsiteIcons.Images.SetKeyName(98, "Archive of Our Own");
-            this.imgWebsiteIcons.Images.SetKeyName(99, "ArtStation");
-            this.imgWebsiteIcons.Images.SetKeyName(100, "Audiomack");
-            this.imgWebsiteIcons.Images.SetKeyName(101, "Codewars");
-            this.imgWebsiteIcons.Images.SetKeyName(102, "CodinGame");
-            this.imgWebsiteIcons.Images.SetKeyName(103, "CurseForge");
-            this.imgWebsiteIcons.Images.SetKeyName(104, "Douban");
-            this.imgWebsiteIcons.Images.SetKeyName(105, "Gaia Online");
-            this.imgWebsiteIcons.Images.SetKeyName(106, "HackerRank");
-            this.imgWebsiteIcons.Images.SetKeyName(107, "HubPages");
-            this.imgWebsiteIcons.Images.SetKeyName(108, "Instructables");
-            this.imgWebsiteIcons.Images.SetKeyName(109, "Letterboxd");
-            this.imgWebsiteIcons.Images.SetKeyName(110, "Mixcloud");
-            this.imgWebsiteIcons.Images.SetKeyName(111, "ModDB");
-            this.imgWebsiteIcons.Images.SetKeyName(112, "Newgrounds");
-            this.imgWebsiteIcons.Images.SetKeyName(113, "Odnoklassniki");
-            this.imgWebsiteIcons.Images.SetKeyName(114, "Pixelfed");
-            this.imgWebsiteIcons.Images.SetKeyName(115, "Plurk");
-            this.imgWebsiteIcons.Images.SetKeyName(116, "ReverbNation");
-            this.imgWebsiteIcons.Images.SetKeyName(117, "Smule");
-            this.imgWebsiteIcons.Images.SetKeyName(118, "Squarespace");
-            this.imgWebsiteIcons.Images.SetKeyName(119, "Topcoder");
-            this.imgWebsiteIcons.Images.SetKeyName(120, "Truth Social");
-            this.imgWebsiteIcons.Images.SetKeyName(121, "Untappd");
-            this.imgWebsiteIcons.Images.SetKeyName(122, "VSCO");
-            this.imgWebsiteIcons.Images.SetKeyName(123, "Zomato");
-            this.imgWebsiteIcons.Images.SetKeyName(124, "Weebly");
-            this.imgWebsiteIcons.Images.SetKeyName(125, "Discord");
-            this.imgWebsiteIcons.Images.SetKeyName(126, "Komi");
-            this.imgWebsiteIcons.Images.SetKeyName(127, "500px");
-            this.imgWebsiteIcons.Images.SetKeyName(128, "Fandom");
-            this.imgWebsiteIcons.Images.SetKeyName(129, "Naver");
-            this.imgWebsiteIcons.Images.SetKeyName(130, "XING");
-            this.imgWebsiteIcons.Images.SetKeyName(131, "Rate Your Music");
             // 
             // lblStatus
             // 
@@ -310,7 +170,6 @@
             this.Controls.Add(this.btnSearch);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.Window;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.MinimumSize = new System.Drawing.Size(500, 400);
             this.Name = "EmoraForm";
@@ -330,7 +189,6 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.TextBox txtUsername;
         private System.Windows.Forms.Panel pnlUsername;
-        private System.Windows.Forms.ImageList imgWebsiteIcons;
         private System.Windows.Forms.Label lblStatus;
         private System.Windows.Forms.Label lblThreads;
         private System.Windows.Forms.NumericUpDown nudThreads;
@@ -338,4 +196,3 @@
         private System.Windows.Forms.Panel pnlResults;
     }
 }
-
